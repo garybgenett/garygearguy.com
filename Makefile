@@ -13,7 +13,7 @@ override CSS ?= $(MDVIEWER_CSS_ALT)
 
 ########################################
 
-override CNAME				:= garygearguy.com
+override CNAME				:= www.garygearguy.com
 
 override SUBTREE			:= .public
 override BRANCH				:= gh-pages
@@ -45,7 +45,7 @@ override SITE_GITHUB			:=
 
 override SITE_GIT_REPO			:= git@github.com:garybgenett/$(CNAME).git
 override SITE_ANALYTICS_ID		:=
-override SITE_URL			:= http://www.$(CNAME)
+override SITE_URL			:= http://$(CNAME)
 override SITE_ROOT			:=
 override SITE_SIDEBAR			:= right
 override SITE_PERMALINK			:= :year/:month/:day/:title/
